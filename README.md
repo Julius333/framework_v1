@@ -23,6 +23,26 @@ There are multiple visual options for the larger image displayer. You can easily
 <img class="preview" alt="Hover text (optional)" src="images/vb1.png" onmouseover="upDate1(this)" onmouseout="unDo1()">
 ```
 
+Within the Index.js file, all effects are explained with the functions numbers beneath it like so:
+
+```
+// Effect 2: Box Shadow toevoegen
+// Effect 2: Adds box shadow
+
+function upDate2(previewPic)
+{
+    document.getElementById("image").innerHTML = previewPic.alt;
+    document.getElementById("image").style.backgroundImage = "url("+previewPic.src+")"; 
+    document.getElementById("image").style.boxShadow="-1px 15px 69px -4px rgba(87,87,87,1)";
+}
+
+function unDo2()
+{
+    document.getElementById("image").innerHTML = "Hover over een poster.";
+    document.getElementById("image").style.backgroundImage = "url('')";
+    document.getElementById("image").style.boxShadow="0px 0px 0px 0px rgba(0,0,0,0)";
+}```
+
 ## Compatibility
 
 I have tested my framework on a Macbook Pro on the following browsers: Chrome, Safari, Opera, Firefox. All of these browsers are 100% compatible!
@@ -31,4 +51,4 @@ I have tested my framework on a Macbook Pro on the following browsers: Chrome, S
 ## Demo
 
 A Demo can be seen on my portfolio: 
-* [JuliusNuijten.nl](http://juliusnuijten.nl/eigenframework.html) - My Portfolio (This is an edited version of my framework. The basic version can be seen in demo.html)
+* [JuliusNuijten.nl](http://www.juliusnuijten.nl/fwork/index.html) - My Portfolio
