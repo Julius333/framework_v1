@@ -1,4 +1,5 @@
 // Effect 1: Box Border toevoegen. Kleuren zijn aan te passen in de laatse regels van beide functies
+// Effect 1: Adds box border. The color of the border can be changed in the last line of the functions
 
 function upDate1(previewPic)
 {
@@ -16,6 +17,7 @@ function unDo1()
 
 
 // Effect 2: Box Shadow toevoegen
+// Effect 2: Adds box shadow
 
 function upDate2(previewPic)
 {
@@ -33,6 +35,7 @@ function unDo2()
 
 
 // Effect 3: Hoeken ronder maken dmv een border-radius
+// Effect 3: Rounded corners with a bix radius
 
 function upDate3(previewPic)
 {
@@ -48,7 +51,8 @@ function unDo3()
     document.getElementById("image").style.borderRadius = "0px";
 }
 
-// Effect 4: Alles!
+// Effect 4: Alles in een
+// Effect 4: Everything combined
 
 function upDate4(previewPic)
 {
