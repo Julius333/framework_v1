@@ -41,7 +41,8 @@ function unDo2()
     document.getElementById("image").innerHTML = "Hover over een poster.";
     document.getElementById("image").style.backgroundImage = "url('')";
     document.getElementById("image").style.boxShadow="0px 0px 0px 0px rgba(0,0,0,0)";
-}```
+}
+```
 
 ## Compatibility
 
