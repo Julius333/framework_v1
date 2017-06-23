@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>Framework Julius Nuijten</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	
+<!-- In deze DIV komt de afbeelding te staan waar je over hovert -->
+<div id="image">
+		Hover over een poster.
+</div>
+    
+<!-- Geef een image een class met de waarde 'preview' -->
+<!-- Als je wilt dat er tekst over de afbeelding word gedisplayed, type deze tekst dan in de alt -->
+<!-- Verander het cijfer van de upDate en unDo functies afhankeling van welk effect je wilt gebruiken (zie index.js) -->
+    
+    <div id="images">
+        <img class="preview" alt="Hier kan je afbeeldingen plaatsen" src="images/vb1.png" onmouseover="upDate1(this)" onmouseout="unDo1()">
+        <img class="preview" alt="Er zijn verschillende mogelijkheden" src="images/vb2.png" onmouseover="upDate2(this)" onmouseout="unDo2()">
+        <img class="preview" alt="Kies welke je mooi vind" src="images/poster1.png" onmouseover="upDate3(this)" onmouseout="unDo3()">
+        <img class="preview" alt="Deze tekst is optioneel" src="images/vb4.png" onmouseover="upDate4(this)" onmouseout="unDo4()">
+    </div>
+
+<script src="js/index.js"></script>
+</body>
+</html>
