@@ -4,25 +4,22 @@ Hello GitHub. I am a student at Fontys IMD and for our assignment we had to make
 
 ## How To Install
 
-You have to copy my CSS and JS files (they are both inside the framework folder). Lastly you need to copy my HTML template which can be found in demo.html
-The HTML template:
+You have to copy my CSS and JS folder (image folder is optional). Inside you HTML you have to refer to the css within the head tag like so:
 
 ```
-<div class="accordionWrapper">
-    <div class="accordionItem open">
-        <h2 class="accordionItemHeading">Mijn Framework</h2>        
-          <div class="accordionItemContent">
-            <p>Met een 'accordeon' effect kan je content uitklappen</p>
-            <p>Je kan gemakkelijk content verdelen in verschillende paragrafen om overzichtelijkheid te behouden.</p>
-          </div>
-    </div>
-</div>
+<link rel="stylesheet" href="css/style.css">
 ```
 
-## Compatibility
+And don't forget to make the Javascript link aswel (I recommend putting this script tag just above where your body closes)
+```
+<link rel="stylesheet" href="css/style.css">
+```
 
-The code is compatible with every browser I tested on a Macbook Pro 15 inch (Chrome, Safari, Mozilla and Opera)
+## Examples
 
+```
+<link rel="stylesheet" href="css/style.css">
+```
 
 ## Demo
 
